@@ -1,5 +1,9 @@
-def roll_call_dwarves# code an argument here
-  # Your code here
+def roll_call_dwarves(array)
+  counter = 0
+  array.each do |names|
+    counter += 1
+    puts #names
+  end
 end
 
 def summon_captain_planet# code an argument here
